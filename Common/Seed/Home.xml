@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umbPackage>
+  <info>
+    <package>
+      <name>Home</name>
+    </package>
+  </info>
+  <Documents>
+    <DocumentSet importMode="root">
+      <page id="1065" key="48c77538-2dd7-4f1c-bc7c-55c9ea1cc21a" parentID="-1" level="1" creatorID="-1" sortOrder="0" createDate="2026-05-25T12:36:43" updateDate="2026-05-25T12:36:44" nodeName="Home" urlName="home" path="-1,1065" isDoc="" nodeType="1056" nodeTypeAlias="page" creatorName="Hubert" writerName="Hubert" writerID="-1" template="1064" isPublished="true">
+        <page id="1066" key="59320930-6afd-4851-b3ff-7aa3e901c941" parentID="1065" level="2" creatorID="-1" sortOrder="0" createDate="2026-05-25T12:37:07" updateDate="2026-05-25T12:37:24" nodeName="Site A" urlName="site-a" path="-1,1065,1066" isDoc="" nodeType="1056" nodeTypeAlias="page" creatorName="Hubert" writerName="Hubert" writerID="-1" template="1064" isPublished="true">
+          <document id="1071" key="f7fdb7e8-58a5-4426-acc7-2036cb6ccc4d" parentID="1066" level="3" creatorID="-1" sortOrder="0" createDate="2026-05-25T14:11:26" updateDate="2026-05-25T14:11:26" nodeName="Document A" urlName="document-a" path="-1,1065,1066,1071" isDoc="" nodeType="1057" nodeTypeAlias="document" creatorName="Hubert" writerName="Hubert" writerID="-1" template="" isPublished="true">
+            <file><![CDATA[/media/stvbzipd/a.txt]]></file>
+          </document>
+        </page>
+        <page id="1067" key="877b5dba-00b2-436e-a1bb-763939a1fcee" parentID="1065" level="2" creatorID="-1" sortOrder="1" createDate="2026-05-25T12:37:17" updateDate="2026-05-25T12:37:17" nodeName="Site B" urlName="site-b" path="-1,1065,1067" isDoc="" nodeType="1056" nodeTypeAlias="page" creatorName="Hubert" writerName="Hubert" writerID="-1" template="1064" isPublished="true">
+          <document id="1070" key="16faf3ce-f7a7-49d1-b150-332572c5e962" parentID="1067" level="3" creatorID="-1" sortOrder="0" createDate="2026-05-25T14:11:06" updateDate="2026-05-25T14:11:06" nodeName="Document B" urlName="document-b" path="-1,1065,1067,1070" isDoc="" nodeType="1057" nodeTypeAlias="document" creatorName="Hubert" writerName="Hubert" writerID="-1" template="" isPublished="true">
+            <file><![CDATA[/media/wkxbwqhb/b.txt]]></file>
+          </document>
+        </page>
+        <document id="1069" key="75b5ba42-7bc4-4315-858a-cdf9b92bff05" parentID="1065" level="2" creatorID="-1" sortOrder="2" createDate="2026-05-25T14:04:11" updateDate="2026-05-25T14:09:57" nodeName="Document C" urlName="document-c" path="-1,1065,1069" isDoc="" nodeType="1057" nodeTypeAlias="document" creatorName="Hubert" writerName="Hubert" writerID="-1" template="" isPublished="true">
+          <file><![CDATA[/media/h1teii2c/c.txt]]></file>
+        </document>
+        <utilityPage id="1074" key="6b77bf70-76b2-4713-bb8a-d855f28f991d" parentID="1065" level="2" creatorID="-1" sortOrder="3" createDate="2026-05-25T14:17:07" updateDate="2026-05-25T14:17:07" nodeName="Login" urlName="login" path="-1,1065,1074" isDoc="" nodeType="1073" nodeTypeAlias="utilityPage" creatorName="Hubert" writerName="Hubert" writerID="-1" template="1063" isPublished="true" />
+        <utilityPage id="1075" key="8d241e71-47f8-4dd3-b154-1bb6f2294e33" parentID="1065" level="2" creatorID="-1" sortOrder="4" createDate="2026-05-25T14:18:16" updateDate="2026-05-25T15:04:13" nodeName="No Access" urlName="no-access" path="-1,1065,1075" isDoc="" nodeType="1073" nodeTypeAlias="utilityPage" creatorName="Hubert" writerName="Hubert" writerID="-1" template="1077" isPublished="true" />
+      </page>
+    </DocumentSet>
+  </Documents>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>Document</Name>
+        <Alias>document</Alias>
+        <Key>ab82db0e-daf4-495f-91dd-398ce3302bd9</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <ListView></ListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates />
+        <DefaultTemplate></DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>File</Name>
+          <Alias>file</Alias>
+          <Key>56f15c7c-b946-44df-b320-a648d7ca6678</Key>
+          <Type>Umbraco.UploadField</Type>
+          <Definition>56be547f-1ce0-438d-9c4d-8ffedbc1110c</Definition>
+          <SortOrder>0</SortOrder>
+          <Mandatory>False</Mandatory>
+          <LabelOnTop>False</LabelOnTop>
+          <Description><![CDATA[]]></Description>
+          <Variations>Nothing</Variations>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs />
+      <HistoryCleanupPolicy preventCleanup="false" />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Page</Name>
+        <Alias>page</Alias>
+        <Key>7b5a91e9-b834-4223-bcbb-359cef7c3188</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>True</AllowAtRoot>
+        <ListView></ListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates>
+          <Template>page</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>page</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>page</DocumentType>
+        <DocumentType>document</DocumentType>
+        <DocumentType>utilityPage</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+      <HistoryCleanupPolicy preventCleanup="false" />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>UtilityPage</Name>
+        <Alias>utilityPage</Alias>
+        <Key>b156b2da-6f5b-45eb-9e9c-65051f9f1fad</Key>
+        <Icon>icon-document</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description />
+        <AllowAtRoot>False</AllowAtRoot>
+        <ListView></ListView>
+        <IsElement>False</IsElement>
+        <Variations>Nothing</Variations>
+        <Compositions />
+        <AllowedTemplates>
+          <Template>login</Template>
+          <Template>noAccess</Template>
+          <Template>selectDocument</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>login</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+      <HistoryCleanupPolicy preventCleanup="false" />
+    </DocumentType>
+  </DocumentTypes>
+  <MediaTypes />
+  <Templates>
+    <Template>
+      <Name>layout</Name>
+      <Key>9a30c901-7a15-49ea-ade3-f9a2b63612df</Key>
+      <Alias>layout</Alias>
+      <Design><![CDATA[@using Umbraco.Cms.Web.Common.PublishedModels
+@using Microsoft.AspNetCore.Http.Extensions
+@using Umbraco.Cms.Web.Common.Models
+@using Umbraco.Cms.Web.Website.Controllers
+@using Umbraco.Extensions
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    Layout = null;
+    var currentMember = Context.User.GetMemberIdentity();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@(ViewData["Title"] != null ? ViewData["Title"] + " – " : "")File Upload Protector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <style>
+        :root {
+            --fup-primary: #2563eb;
+            --fup-primary-dark: #1d4ed8;
+        }
+        body { background-color: #f8f9fb; }
+        .navbar-brand .brand-icon { color: var(--fup-primary); }
+        .nav-link { font-size: .9rem; }
+        .nav-link:hover { color: var(--fup-primary) !important; }
+        footer { font-size: .85rem; }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="navbar navbar-expand-lg bg-white border-bottom shadow-sm py-2">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-semibold" href="/">
+                <i class="bi bi-shield-lock-fill fs-5 brand-icon"></i>
+                File Upload Protector
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar" aria-controls="mainNavbar"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+                <ul class="navbar-nav mb-2 mb-lg-0 me-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="bi bi-house me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/site-a"><i class="bi bi-building me-1"></i>Organization A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/site-b"><i class="bi bi-building me-1"></i>Organization B</a>
+                    </li>
+                </ul>
+
+                @if (currentMember != null)
+                {
+                    <span class="navbar-text me-3 small text-muted">
+                        <i class="bi bi-person-circle me-1"></i>Signed in
+                    </span>
+                    @using (Html.BeginUmbracoForm<UmbLoginStatusController>("HandleLogout", new { RedirectUrl = "/" }))
+                    {
+                        <button type="submit" class="btn btn-outline-secondary btn-sm">
+                            <i class="bi bi-box-arrow-right me-1"></i>Sign out
+                        </button>
+                    }
+                }
+                else
+                {
+                    <a href="/login" class="btn btn-primary btn-sm">
+                        <i class="bi bi-box-arrow-in-right me-1"></i>Sign in
+                    </a>
+                }
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow-1 py-4">
+        @RenderBody()
+    </main>
+
+    <footer class="border-top bg-white py-3 mt-auto">
+        <div class="container text-center text-muted">
+            <i class="bi bi-shield-check me-1"></i>
+            &copy; <span id="year"></span> File Upload Protector &mdash; Proof of Concept
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>]]></Design>
+    </Template>
+    <Template>
+      <Name>login</Name>
+      <Key>c0765163-6808-4e10-8605-67935552396b</Key>
+      <Alias>login</Alias>
+      <Design><![CDATA[@using Umbraco.Cms.Web.Common.Models
+@using Umbraco.Cms.Web.Common.Security
+@using Umbraco.Cms.Web.Website.Controllers
+@using Umbraco.Cms.Core.Services
+@using Umbraco.Extensions
+@inject IMemberExternalLoginProviders memberExternalLoginProviders
+@inject ITwoFactorLoginService twoFactorLoginService
+@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = "layout.cshtml";
+	ViewData["Title"] = "Sign in";
+	var loginModel = new LoginModel();
+	loginModel.RedirectUrl = null;
+}
+
+@section Scripts {
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-12 col-sm-9 col-md-7 col-lg-5">
+
+			<div class="card border-0 shadow-sm rounded-3 mt-3">
+				<div class="card-body p-4 p-md-5">
+
+					<div class="text-center mb-4">
+						<i class="bi bi-shield-lock-fill text-primary fs-1"></i>
+						<h4 class="fw-semibold mt-2 mb-0">Sign in</h4>
+						<p class="text-muted small">Access your protected resources</p>
+					</div>
+
+@if (ViewData.TryGetTwoFactorProviderNames(out var providerNames))
+{
+	foreach (var providerName in providerNames)
+	{
+		<h6 class="fw-semibold">Two-factor authentication</h6>
+		<p class="text-muted small">Using provider: <strong>@providerName</strong></p>
+		<div asp-validation-summary="All" class="alert alert-danger py-2 small"></div>
+		@using (Html.BeginUmbracoForm<UmbTwoFactorLoginController>(nameof(UmbTwoFactorLoginController.Verify2FACode)))
+		{
+			<input type="hidden" name="provider" value="@providerName" />
+			<div class="mb-3">
+				<label class="form-label">Security code</label>
+				<input name="code" class="form-control" placeholder="Enter code" />
+			</div>
+			<div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small"></div>
+			<button type="submit" class="btn btn-primary w-100">Verify</button>
+		}
+	}
+}
+else
+{
+	@using (Html.BeginUmbracoForm<UmbLoginController>("HandleLogin", new { RedirectUrl = loginModel.RedirectUrl }))
+	{
+		<div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small"></div>
+		<div class="mb-3">
+			<label asp-for="@loginModel.Username" class="form-label fw-medium"></label>
+			<div class="input-group">
+				<span class="input-group-text"><i class="bi bi-person"></i></span>
+				<input asp-for="@loginModel.Username" class="form-control" placeholder="Username" />
+			</div>
+			<span asp-validation-for="@loginModel.Username" class="form-text text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="@loginModel.Password" class="form-label fw-medium"></label>
+			<div class="input-group">
+				<span class="input-group-text"><i class="bi bi-lock"></i></span>
+				<input asp-for="@loginModel.Password" class="form-control" placeholder="Password" />
+			</div>
+			<span asp-validation-for="@loginModel.Password" class="form-text text-danger"></span>
+		</div>
+		<div class="mb-4 form-check">
+			<input asp-for="@loginModel.RememberMe" class="form-check-input" />
+			<label asp-for="@loginModel.RememberMe" class="form-check-label small">
+				@Html.DisplayNameFor(m => loginModel.RememberMe)
+			</label>
+		</div>
+		<button type="submit" class="btn btn-primary w-100">
+			<i class="bi bi-box-arrow-in-right me-1"></i>Sign in
+		</button>
+	}
+
+	{
+		var loginProviders = await memberExternalLoginProviders.GetMemberProvidersAsync();
+		var externalSignInError = ViewData.GetExternalSignInProviderErrors();
+
+		if (loginProviders.Any())
+		{
+			<div class="d-flex align-items-center my-3">
+				<hr class="flex-grow-1" /><span class="px-2 text-muted small">or</span><hr class="flex-grow-1" />
+			</div>
+			if (externalSignInError?.AuthenticationType is null && externalSignInError?.Errors.Any() == true)
+			{
+				@Html.DisplayFor(x => externalSignInError.Errors);
+			}
+			foreach (var login in loginProviders)
+			{
+				@using (Html.BeginUmbracoForm<UmbExternalLoginController>(nameof(UmbExternalLoginController.ExternalLogin)))
+				{
+					<button type="submit" name="provider" value="@login.ExternalLoginProvider.AuthenticationType"
+							class="btn btn-outline-secondary w-100 mb-2">
+						<i class="bi bi-box-arrow-in-right me-1"></i>Sign in with @login.AuthenticationScheme.DisplayName
+					</button>
+					if (externalSignInError?.AuthenticationType == login.ExternalLoginProvider.AuthenticationType)
+					{
+						@Html.DisplayFor(x => externalSignInError.Errors);
+					}
+				}
+			}
+		}
+	}
+}
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>]]></Design>
+    </Template>
+    <Template>
+      <Name>No Access</Name>
+      <Key>e3199e64-0e72-42f0-a4d8-b74383338006</Key>
+      <Alias>noAccess</Alias>
+      <Design><![CDATA[@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = "layout.cshtml";
+	ViewData["Title"] = "Access Denied";
+}
+
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-6 col-lg-5 text-center py-5">
+			<i class="bi bi-shield-x text-danger" style="font-size: 4rem;"></i>
+			<h2 class="fw-semibold mt-3">Access Denied</h2>
+			<p class="text-muted">You do not have permission to view this resource.</p>
+			<hr />
+			<a href="/login" class="btn btn-primary me-2">
+				<i class="bi bi-box-arrow-in-right me-1"></i>Sign in as another user
+			</a>
+			<a href="/" class="btn btn-outline-secondary">
+				<i class="bi bi-house me-1"></i>Go home
+			</a>
+		</div>
+	</div>
+</div>
+]]></Design>
+    </Template>
+    <Template>
+      <Name>Page</Name>
+      <Key>8baf3739-d685-4e2a-b5f8-9315feb84b50</Key>
+      <Alias>page</Alias>
+      <Design><![CDATA[@using Umbraco.Cms.Core.Security
+@using Umbraco.Cms.Web.Common.PublishedModels;
+@inject IMemberManager _memberManager;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    Layout = "layout.cshtml";
+    ViewData["Title"] = Model.Name;
+    var pages = Task.WhenAll(Model.DescendantsOfType("page").Select(async x =>
+    {
+        var isProtected = await _memberManager.IsProtectedAsync(x.Path);
+        var memberHasAccess = await _memberManager.MemberHasAccessAsync(x.Path);
+        return new PageInfo(x.Name, x.Url(), isProtected, memberHasAccess);
+    })).GetAwaiter().GetResult();
+    var documents = Model.Descendants().OfTypes("document").ToList();
+}
+
+@functions {
+    private record PageInfo(string Name, string Url, bool IsProtected, bool MemberHasAccess);
+}
+
+<div class="container">
+
+    <div class="mb-4">
+        <h2 class="fw-semibold mb-0">@Model.Name</h2>
+        <hr />
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-12 col-lg-4">
+
+            <div class="card border-0 shadow-sm rounded-3 mb-4">
+                <div class="card-header bg-white border-bottom py-3">
+                    <h6 class="mb-0 fw-semibold"><i class="bi bi-diagram-3 me-2 text-primary"></i>Sub-pages</h6>
+                </div>
+                <div class="card-body p-0">
+                    @if (pages.Any())
+                    {
+                        <ul class="list-group list-group-flush">
+                            @foreach (PageInfo subPage in pages)
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-3 py-2">
+                                    <a href="@subPage.Url" class="text-decoration-none text-body fw-medium">
+                                        <i class="bi bi-file-text me-1 text-secondary"></i>@subPage.Name
+                                    </a>
+                                    <span>
+                                        @if (subPage.IsProtected)
+                                        {
+                                            @if (subPage.MemberHasAccess)
+                                            {
+                                                <span class="badge bg-success-subtle text-success border border-success-subtle">
+                                                    <i class="bi bi-unlock-fill me-1"></i>Access
+                                                </span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-danger-subtle text-danger border border-danger-subtle">
+                                                    <i class="bi bi-lock-fill me-1"></i>Protected
+                                                </span>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle">
+                                                <i class="bi bi-globe me-1"></i>Public
+                                            </span>
+                                        }
+                                    </span>
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <div class="text-center text-muted py-4 small">
+                            <i class="bi bi-inbox fs-4 d-block mb-1"></i>No sub-pages found
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="card border-0 shadow-sm rounded-3">
+                <div class="card-header bg-white border-bottom py-3">
+                    <h6 class="mb-0 fw-semibold"><i class="bi bi-paperclip me-2 text-primary"></i>Documents</h6>
+                </div>
+                <div class="card-body p-0">
+                    @if (documents.Any())
+                    {
+                        <ul class="list-group list-group-flush">
+                            @foreach (var doc in documents)
+                            {
+                                <li class="list-group-item px-3 py-2">
+                                    <a href="@(doc.Value<string>("file"))" target="preview"
+                                       class="text-decoration-none text-body">
+                                        <i class="bi bi-file-earmark me-1 text-secondary"></i>@doc.Name
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <div class="text-center text-muted py-4 small">
+                            <i class="bi bi-folder2-open fs-4 d-block mb-1"></i>No documents found
+                        </div>
+                    }
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-12 col-lg-8">
+            <div class="card border-0 shadow-sm rounded-3 h-100">
+                <div class="card-header bg-white border-bottom py-3">
+                    <h6 class="mb-0 fw-semibold"><i class="bi bi-eye me-2 text-primary"></i>Preview</h6>
+                </div>
+                <div class="card-body p-0" style="min-height: 500px;">
+                    <iframe src="" name="preview"
+                            class="w-100 h-100 border-0 rounded-bottom"
+                            style="min-height: 500px;">
+                        Select a document to preview
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+]]></Design>
+    </Template>
+    <Template>
+      <Name>Select Document</Name>
+      <Key>22270ec2-b075-44a5-ab12-0b19b09389bb</Key>
+      <Alias>selectDocument</Alias>
+      <Design><![CDATA[@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = "layout.cshtml";
+	ViewData["Title"] = "Select Document";
+}
+
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-7 col-lg-6 text-center py-5">
+			<i class="bi bi-file-earmark-arrow-up text-secondary" style="font-size: 3.5rem;"></i>
+			<h4 class="fw-semibold mt-3">Select a document to preview</h4>
+			<p class="text-muted small">Choose a document from the list on the left to display its contents here.</p>
+		</div>
+	</div>
+</div>
+]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets />
+  <Scripts />
+  <PartialViews />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Upload Field (Text file only)" Id="Umbraco.UploadField" EditorUiAlias="Umb.PropertyEditorUi.UploadField" Definition="56be547f-1ce0-438d-9c4d-8ffedbc1110c" DatabaseType="Nvarchar" Configuration="{&quot;fileExtensions&quot;:[&quot;txt&quot;]}" />
+  </DataTypes>
+  <MediaItems />
+</umbPackage>

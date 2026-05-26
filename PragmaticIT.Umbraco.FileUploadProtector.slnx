@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/01 Docs/">
+    <File Path="Docs/series-meta.md" />
+  </Folder>
+  <Folder Name="/02 Common/" />
+  <Folder Name="/02 Common/Seed/">
+    <File Path="Common/Seed/Home.xml" />
+  </Folder>
+  <Folder Name="/02 Common/Test Files/">
+    <File Path="a.txt" />
+    <File Path="b.txt" />
+    <File Path="c.txt" />
+  </Folder>
+  <Folder Name="/03 Source/">
+    <Project Path="Source/PragmaticIT.Umbraco.FileUploadProtector.Web/PragmaticIT.Umbraco.FileUploadProtector.Web.csproj" />
+    <Project Path="Source/PragmaticIT.Umbraco.FileUploadProtector/PragmaticIT.Umbraco.FileUploadProtector.csproj" />
+  </Folder>
+  <Folder Name="/04 Examples/" />
+  <Folder Name="/05 Tests/" />
+</Solution>
